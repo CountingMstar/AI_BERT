@@ -1,14 +1,50 @@
 # AI Question and Answering BERT
+This model is a BERT model fine-tuned on artificial intelligence (AI) related terms and explanations.
 
+With the increasing interest in artificial intelligence, many people are taking AI-related courses and projects. However, as a graduate student in artificial intelligence, it's not common to find useful resources that are easy for AI beginners to understand. Furthermore, personalized lessons tailored to individual levels and fields are often lacking, making it difficult for many people to start learning about artificial intelligence. To address these challenges, our team has created a language model that plays the role of a tutor in the field of AI terminology. Details about the model type, training dataset, and usage are explained below, so please read them carefully and be sure to try it out.
 
 ## Model
+https://huggingface.co/bert-base-uncased
+
+
+For the model, I used BERT, which is one of the most famous natural language processing models developed by Google. For more detailed information, please refer to the website mentioned above. To make the question-answering more like a private tutoring experience, I utilized a specialized Question and Answering model within BERT. Here's how you can load it:
+
+
+```
+   from transformers import BertForQuestionAnswering
+   
+   model = BertForQuestionAnswering.from_pretrained("bert-base-uncased")
+```
 
 
 ## Dataset
+### Wikipedia
+https://en.wikipedia.org/wiki/Main_Page
+### activeloop
+https://www.activeloop.ai/resources/glossary/arima-models/
+### Adrien Beaulieu
+https://product.house/100-ai-glossary-terms-explained-to-the-rest-of-us/
+
+
+```
+Context: 'Feature engineering or feature extraction or feature discovery is the process of extracting features (characteristics, properties, attributes) from raw data. Due to deep learning networks, such as convolutional neural networks, that are able to learn features by themselves, domain-specific-based feature engineering has become obsolete for vision and speech processing. Other examples of features in physics include the construction of dimensionless numbers such as Reynolds number in fluid dynamics; then Nusselt number in heat transfer; Archimedes number in sedimentation; construction of first approximations of the solution such as analytical strength of materials solutions in mechanics, etc..'
+
+Question: 'What is large language model?'
+
+Answer: 'A large language model (LLM) is a type of language model notable for its ability to achieve general-purpose language understanding and generation.'
+```
+
+The training dataset consists of three components: context, questions, and answers, all related to artificial intelligence. The response (correct answer) data is included within the context data, and the sentence order in the context data has been rearranged to augment the dataset. The question data is focused on artificial intelligence terms as the topic. You can refer to the example above for better understanding. In total, there are over 3,300 data points, stored in pickle files in the 'data' folder. The data has been extracted and processed using HTML from sources such as Wikipedia and other websites. The sources are as mentioned above.
 
 
 ## How to use?
+https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
 
+
+The detailed instructions for model training and usage can be found in the link provided above. 
+
+
+Thank you.
 
 ---
 # AI Tutor BERT (인공지능 과외선생님 BERT)
