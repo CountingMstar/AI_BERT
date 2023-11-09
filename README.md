@@ -106,7 +106,7 @@ optim = AdamW(model.parameters(), lr=5e-5)
 
 
 
-<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/72142ff8-f5c8-47ea-9f19-1e6abb4072cd" width="200" height="400"/>
+<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/72142ff8-f5c8-47ea-9f19-1e6abb4072cd" width="500" height="400"/>
 
 
 
