@@ -38,17 +38,37 @@ The training dataset consists of three components: context, questions, and answe
 
 
 ## Training and Result
+https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
 
+
+The training process involves loading data from the 'data' folder and utilizing the BERT Question and Answering model. Detailed instructions for model training and usage can be found in the link provided above.
+
+
+```
+N_EPOCHS = 10
+optim = AdamW(model.parameters(), lr=5e-5)
+```
+
+
+I used 10 epochs for training, and I employed the Adam optimizer with a learning rate of 5e-5.
+
+
+<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/72142ff8-f5c8-47ea-9f19-1e6abb4072cd" width="500" height="400"/>
+<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/2dd78573-34eb-4ce9-ad4d-2237fc7a5b1e" width="500" height="400"/>
+
+
+The results, as shown in the graphs above, indicate that, at the last epoch, the loss is 6.917126256477786, and the accuracy is 0.9819078947368421, demonstrating that the model has been trained quite effectively.
 
 
 ## How to use?
 https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
 
 
-The detailed instructions for model training and usage can be found in the link provided above. 
+You can load the trained model through the training process described above and use it as needed.
 
 
 Thank you.
+
 
 ---
 # AI Tutor BERT (인공지능 과외선생님 BERT)
@@ -111,6 +131,8 @@ optim = AdamW(model.parameters(), lr=5e-5)
 
 
 결과는 위 그래프들과 같이 마지막 에포크 기준 loss = 6.917126256477786, accuracy = 0.9819078947368421로 상당히 학습이 잘 된 모습을 보여줍니다.
+
+
 
 ## How to use?
 
