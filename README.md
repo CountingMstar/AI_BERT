@@ -38,9 +38,25 @@ https://www.activeloop.ai/resources/glossary/arima-models/
 https://product.house/100-ai-glossary-terms-explained-to-the-rest-of-us/
 
 
+```
+Context: 'Feature engineering or feature extraction or feature discovery is the process of extracting features (characteristics, properties, attributes) from raw data. Due to deep learning networks, such as convolutional neural networks, that are able to learn features by themselves, domain-specific-based feature engineering has become obsolete for vision and speech processing. Other examples of features in physics include the construction of dimensionless numbers such as Reynolds number in fluid dynamics; then Nusselt number in heat transfer; Archimedes number in sedimentation; construction of first approximations of the solution such as analytical strength of materials solutions in mechanics, etc..'
+
+Question: 'What is large language model?'
+
+Answer: 'A large language model (LLM) is a type of language model notable for its ability to achieve general-purpose language understanding and generation.'
+```
 
 
+학습 데이터셋은 인공지능관련 문맥, 질문, 그리고 응답 이렇게 3가지로 구성이 되어있습니다. 응답(정답) 데이터는 문맥 데이터안에 포함되어 있고, 문맥 데이터의 문장 순서를 바꿔주어 데이터를 증강 하였습니다. 질문 데이터는 주제가 되는 인공지능 용어로 설정했습니다. 위의 예시를 보시면 이해하시기 편하실 겁니다. 총 데이터수는 3300여개로 data폴더에 pickle파일 형태로 저장이 되었습니다.
 
 
 ## How to use?
+https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
+
+
+자세한 모델 학습 및 사용법은 위의 링크에 설명되어있습니다.
+감사합니다.
+
+
+
 
