@@ -105,7 +105,8 @@ optim = AdamW(model.parameters(), lr=5e-5)
 에포크는 10을 사용했으며, 아담 옵티마이져와 러닝레이트는 5e-5를 사용했습니다.
 
 
-![loss](https://github.com/CountingMstar/AI_BERT/assets/90711707/72142ff8-f5c8-47ea-9f19-1e6abb4072cd)
+
+<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/72142ff8-f5c8-47ea-9f19-1e6abb4072cd" width="200" height="400"/>
 
 
 
