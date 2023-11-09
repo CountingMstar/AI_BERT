@@ -102,7 +102,7 @@ optim = AdamW(model.parameters(), lr=5e-5)
 ```
 
 
-에포크는 10을 사용했으며, 아담 옵티마이져와 러닝레이트는 5e-5를 사용했습니다.
+에포크(epoch)는 10을 사용했으며, 아담 옵티마이져와 러닝레이트는 5e-5를 사용했습니다.
 
 
 
@@ -110,6 +110,7 @@ optim = AdamW(model.parameters(), lr=5e-5)
 <img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/2dd78573-34eb-4ce9-ad4d-2237fc7a5b1e" width="500" height="400"/>
 
 
+결과는 위 그래프들과 같이 마지막 에포크 기준 loss = 6.917126256477786, accuracy = 0.9819078947368421로 상당히 학습이 잘 된 모습을 보여줍니다.
 
 ## How to use?
 
