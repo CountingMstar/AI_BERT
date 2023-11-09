@@ -24,11 +24,9 @@ https://huggingface.co/bert-base-uncased
 
 모델의 경우 자연어 처리 모델중 가장 유명한 Google에서 개발한 BERT를 사용했습니다. 자세한 설명은 위 사이트를 참고하시기 바랍니다. 질의응답이 주인 과외선생님 답게, BERT 중에서도 질의응답에 특화된 Question and Answering 모델을 사용하였습니다. 불러오는법은 다음과 같습니다.
 
-
    from transformers import BertForQuestionAnswering
 
    model = BertForQuestionAnswering.from_pretrained("bert-base-uncased")
-
 
 ## Dataset
 
