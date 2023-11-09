@@ -28,7 +28,18 @@ https://huggingface.co/bert-base-uncased
    
    model = BertForQuestionAnswering.from_pretrained("bert-base-uncased")
 ```
+
 ## Dataset
+### 위키피디아
+https://en.wikipedia.org/wiki/Main_Page
+### activeloop
+https://www.activeloop.ai/resources/glossary/arima-models/
+### Adrien Beaulieu
+https://product.house/100-ai-glossary-terms-explained-to-the-rest-of-us/
+
+
+
+
 
 
 ## How to use?
