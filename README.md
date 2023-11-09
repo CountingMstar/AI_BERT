@@ -1,4 +1,4 @@
-# AI Question and Answering BERT
+# AI Tutor BERT
 This model is a BERT model fine-tuned on artificial intelligence (AI) related terms and explanations.
 
 With the increasing interest in artificial intelligence, many people are taking AI-related courses and projects. However, as a graduate student in artificial intelligence, it's not common to find useful resources that are easy for AI beginners to understand. Furthermore, personalized lessons tailored to individual levels and fields are often lacking, making it difficult for many people to start learning about artificial intelligence. To address these challenges, our team has created a language model that plays the role of a tutor in the field of AI terminology. Details about the model type, training dataset, and usage are explained below, so please read them carefully and be sure to try it out.
@@ -35,6 +35,10 @@ Answer: 'A large language model (LLM) is a type of language model notable for it
 ```
 
 The training dataset consists of three components: context, questions, and answers, all related to artificial intelligence. The response (correct answer) data is included within the context data, and the sentence order in the context data has been rearranged to augment the dataset. The question data is focused on artificial intelligence terms as the topic. You can refer to the example above for better understanding. In total, there are over 3,300 data points, stored in pickle files in the 'data' folder. The data has been extracted and processed using HTML from sources such as Wikipedia and other websites. The sources are as mentioned above.
+
+
+## Training and Result
+
 
 
 ## How to use?
@@ -85,14 +89,40 @@ Answer: 'A large language model (LLM) is a type of language model notable for it
 
 학습 데이터셋은 인공지능관련 문맥, 질문, 그리고 응답 이렇게 3가지로 구성이 되어있습니다. 응답(정답) 데이터는 문맥 데이터안에 포함되어 있고, 문맥 데이터의 문장 순서를 바꿔주어 데이터를 증강 하였습니다. 질문 데이터는 주제가 되는 인공지능 용어로 설정했습니다. 위의 예시를 보시면 이해하시기 편하실 겁니다. 총 데이터수는 3300여개로 data폴더에 pickle파일 형태로 저장되어 있고, 데이터는 Wikipedia 및 다른 사이트들을 에서 html을 이용하여 추출 및 가공하여 제작하였습니다. 해당 출처는 위와 같습니다. 
 
-## How to use?
+
+## Training and Result
 https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
 
 
-자세한 모델 학습 및 사용법은 위의 링크에 설명되어있습니다.
+학습방식은 data 폴더의 데이터와 BERT Question and Answering 모델을 불어와 진행됩니다. 자세한 모델 학습 및 사용법은 위의 링크에 설명되어있습니다.
+
+```
+N_EPOCHS = 10
+optim = AdamW(model.parameters(), lr=5e-5)
+```
+
+
+에포크는 10을 사용했으며, 아담 옵티마이져와 러닝레이트는 5e-5를 사용했습니다.
+
+
+
+
+
+
+
+## How to use?
+
+
+```
+model = torch.load("./models/AI_BERT_final_10.pth")
+```
+
+위 학습과정을 통해 학습된 모델을 불러와 사용하시면 됩니다.
 
 
 감사합니다.
+
+
 
 
 
