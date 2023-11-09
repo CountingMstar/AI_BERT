@@ -30,7 +30,7 @@ https://huggingface.co/bert-base-uncased
 ```
 
 ## Dataset
-### 위키피디아
+### Wikipedia
 https://en.wikipedia.org/wiki/Main_Page
 ### activeloop
 https://www.activeloop.ai/resources/glossary/arima-models/
@@ -47,8 +47,7 @@ Answer: 'A large language model (LLM) is a type of language model notable for it
 ```
 
 
-학습 데이터셋은 인공지능관련 문맥, 질문, 그리고 응답 이렇게 3가지로 구성이 되어있습니다. 응답(정답) 데이터는 문맥 데이터안에 포함되어 있고, 문맥 데이터의 문장 순서를 바꿔주어 데이터를 증강 하였습니다. 질문 데이터는 주제가 되는 인공지능 용어로 설정했습니다. 위의 예시를 보시면 이해하시기 편하실 겁니다. 총 데이터수는 3300여개로 data폴더에 pickle파일 형태로 저장이 되었습니다.
-
+학습 데이터셋은 인공지능관련 문맥, 질문, 그리고 응답 이렇게 3가지로 구성이 되어있습니다. 응답(정답) 데이터는 문맥 데이터안에 포함되어 있고, 문맥 데이터의 문장 순서를 바꿔주어 데이터를 증강 하였습니다. 질문 데이터는 주제가 되는 인공지능 용어로 설정했습니다. 위의 예시를 보시면 이해하시기 편하실 겁니다. 총 데이터수는 3300여개로 data폴더에 pickle파일 형태로 저장되어 있고, 데이터는 Wikipedia 및 다른 사이트들을 에서 html을 이용하여 추출 및 가공하여 제작하였습니다. 해당 출처는 위와 같습니다. 
 
 ## How to use?
 https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
