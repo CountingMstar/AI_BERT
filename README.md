@@ -55,6 +55,8 @@ https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
 
 
 자세한 모델 학습 및 사용법은 위의 링크에 설명되어있습니다.
+
+
 감사합니다.
 
 
