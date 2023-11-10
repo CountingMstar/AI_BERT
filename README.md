@@ -144,7 +144,7 @@ model = torch.load("./models/AI_BERT_final_10.pth")
 위 학습 과정을 통해 학습된 모델을 불러와 사용하시면 됩니다.
 
 
-<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/45afcd24-7ef9-4149-85d4-2236e23fbf69" width="1400" height="700"/>
+<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/45afcd24-7ef9-4149-85d4-2236e23fbf69" width="800" height="400"/>
 https://huggingface.co/spaces/pseudolab/AI_Tutor_BERT
 
 
