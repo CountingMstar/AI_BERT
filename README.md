@@ -144,6 +144,13 @@ model = torch.load("./models/AI_BERT_final_10.pth")
 위 학습 과정을 통해 학습된 모델을 불러와 사용하시면 됩니다.
 
 
+<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/45afcd24-7ef9-4149-85d4-2236e23fbf69" width="1400" height="700"/>
+https://huggingface.co/spaces/pseudolab/AI_Tutor_BERT
+
+
+또는 위 그림과 같이 인공지능관련 지문(문맥)과 용어 관련 질문을 입력해주고 Submit을 눌러주면, 오른쪽에 해당 용어에 대한 설명 답변이 나옵니다. 
+
+
 감사합니다.
 
 
