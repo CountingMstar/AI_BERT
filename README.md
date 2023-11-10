@@ -67,6 +67,13 @@ https://github.com/CountingMstar/AI_BERT/blob/main/MY_AI_BERT_final.ipynb
 You can load the trained model through the training process described above and use it as needed.
 
 
+<img src="https://github.com/CountingMstar/AI_BERT/assets/90711707/45afcd24-7ef9-4149-85d4-2236e23fbf69" width="800" height="200"/>
+https://huggingface.co/spaces/pseudolab/AI_Tutor_BERT
+
+
+Or, as shown above, you can input passages (context) related to artificial intelligence and questions about terms. Upon pressing "Submit," you will receive corresponding explanations and answers on the right side. (This model only supports English.)
+
+
 Thank you.
 
 
