@@ -21,7 +21,7 @@ For the model, I used BERT, which is one of the most famous natural language pro
 https://huggingface.co/CountingMstar/ai-tutor-bert-model
 
 
-Afterwards, I fine-tuned the original BertForQuestionAnswering model using the artificial intelligence-related datasets for my project on creating an AI tutoring model. You can find the fine-tuned AI Tutor BERT model at the link provided, and the usage in Python is as follows.
+**Afterwards, I fine-tuned the original BertForQuestionAnswering model using the artificial intelligence-related datasets for my project on creating an AI tutoring model. You can find the fine-tuned AI Tutor BERT model at the link provided, and the usage in Python is as follows.**
 
 
 ```
@@ -114,7 +114,7 @@ https://huggingface.co/bert-base-uncased
 https://huggingface.co/CountingMstar/ai-tutor-bert-model
 
 
-이후 오리지널 BertForQuestionAnswering 모델을 이 프로젝트 주제인 인공지능 과외 선생님 모델로 만들기 위해 아래의 인공지능 관련 데이터셋으로 파인튜닝을 해줬습니다. 이렇게 파인튜닝된 AI Tutor BERT 모델은 위 링크에서 찾아보실 수 있으며, 파이썬에서의 사용방법은 아래와 같습니다. 
+**이후 오리지널 BertForQuestionAnswering 모델을 이 프로젝트 주제인 인공지능 과외 선생님 모델로 만들기 위해 아래의 인공지능 관련 데이터셋으로 파인튜닝을 해줬습니다. 이렇게 파인튜닝된 AI Tutor BERT 모델은 위 링크에서 찾아보실 수 있으며, 파이썬에서의 사용방법은 아래와 같습니다.** 
 
 
 ```
